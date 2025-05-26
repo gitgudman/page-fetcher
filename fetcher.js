@@ -5,7 +5,7 @@ const url = process.argv[2];
 const filePath = process.argv[3];
 
 if (!url || !filePath) {
-  console.log("Usage: node fetcher.js <URL> <local file path>");
+  console.log("Usage: node fetcher.js <URL> and <local file path>");
   process.exit();
 }
 
